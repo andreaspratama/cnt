@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: #fff;
+    opacity: 0.9;
+
+    .card-header {
+        text-align: center;
+    }
+
+    .form-control {
+        font-weight: 300;
+    }
+
+    .form-select {
+        font-weight: 300;
+
+        option {
+            font-weight: 300;
+        }
+    }
+
+    .btn-register {
+        background-color: transparent;
+        border: 1px solid #3366cc;
+        color: #3366cc;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:hover {
+            background-color: #3366cc;
+            color: #fff;
+        }
+    }
+}
